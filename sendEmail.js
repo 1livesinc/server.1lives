@@ -24,7 +24,7 @@ const Email = (options) => {
 // send email
 const EmailSender = ({ fullName, email, phone, message }) => {
   const options = {
-    from: `AmaraTech IT Solutions<${process.env.EMAIL_USER}>`,
+    from: `1LIVES<${process.env.EMAIL_USER}>`,
     to: process.env.SEND_TO,
     subject: 'Message From Contact Form',
     html: `
@@ -32,7 +32,7 @@ const EmailSender = ({ fullName, email, phone, message }) => {
         <div style="max-width: 700px; background-color: white; margin: 0 auto">
           <div style="width: 100%;   padding: 20px 0">
           <a href="${process.env.CLIENT_URL}" ><img
-              src="https://media.amaratechit.com/wp-content/uploads/2022/10/Logo-1.png"
+              src="https://media.1lives.us/wp-content/uploads/2022/10/favicon.png"
               style="width: 100%; height: 70px; object-fit: contain"
             /></a> 
           

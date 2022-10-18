@@ -21,5 +21,5 @@ app.post("/send", async (req, res) => {
 });
 
 app.listen(process.env.PORT || 5000, () => {
-  console.log(`Server is connecte`)
+  console.log(`Server is connected`)
 });
